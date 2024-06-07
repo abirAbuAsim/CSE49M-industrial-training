@@ -1,0 +1,11 @@
+/* External CSS */
+body {
+    background-color: aqua;
+}
+
+h1 {
+    font-size: 100px;
+    border: solid 5px;
+    padding: 50px;
+    width: 50%;
+}

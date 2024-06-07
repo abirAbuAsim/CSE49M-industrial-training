@@ -12,13 +12,13 @@ console.log(sum(2, 5));
 // Anonymous function
 (function (a, b) {
     return a + b;
-})
+});
 
 // IIFE: Immediately Invoked Function Expression
-// (function(a, b) {
-//     console.log(`${a} + ${b} = ${a+b}`);
-//     return a + b;
-// })(2, 5);
+(function(a, b) {
+    console.log(`IIFE Example: ${a} + ${b} = ${a+b}`);
+    return a + b;
+})(7, 8);
 
 // 1.3 Arrow Function 
 let show = function () {
